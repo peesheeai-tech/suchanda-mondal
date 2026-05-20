@@ -382,7 +382,7 @@ export default function Home() {
 
       {/* ── FOOTER ── */}
       <footer className="bg-navy border-t border-white/8 py-8 px-6">
-        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 mb-5">
           <span className="font-oswald font-bold text-sm tracking-widest uppercase text-white/30">
             Suchanda<span className="text-gold/50">.</span>Mondal
           </span>
@@ -391,6 +391,14 @@ export default function Home() {
             className="font-oswald text-xs tracking-widest uppercase text-gold/60 hover:text-gold transition-colors">
             suchandamondal1997@gmail.com
           </a>
+        </div>
+        <div className="max-w-6xl mx-auto border-t border-white/5 pt-5 flex flex-col sm:flex-row items-center justify-center gap-2">
+          <p className="font-playfair italic text-white/20 text-xs">Designed by</p>
+          <p className="font-oswald text-xs tracking-widest uppercase text-white/30">
+            Amir Arsalan Sharifi
+            <span className="text-gold/30 mx-2">·</span>
+            <a href="tel:+971542189831" className="hover:text-gold/60 transition-colors">+971 542 189 831</a>
+          </p>
         </div>
       </footer>
     </main>
