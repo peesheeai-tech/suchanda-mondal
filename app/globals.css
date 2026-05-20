@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #C9A96E;
+  --color-navy: #0a0f1e;
+  --color-navy-light: #0d1630;
+}
+
+@utility font-oswald {
+  font-family: var(--font-oswald), "Oswald", sans-serif;
+}
+
+@utility font-playfair {
+  font-family: var(--font-playfair), "Playfair Display", serif;
+}
+
+html { scroll-behavior: smooth; }
+body { background: #0a0f1e; color: #fff; }
